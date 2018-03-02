@@ -1,0 +1,58 @@
+body {
+	background-color: black;
+}
+* {
+	display: block;
+	text-align: left;
+	-webkit-font-smoothing: antialiased!important;
+    -ms-font-smoothing: antialiased!important;
+    -moz-font-smoothing: antialiased!important;
+    -o-font-smoothing: antialiased!important;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+h1 {
+	font-weight: 300;
+	font-size: 80px;
+}
+
+.logo {
+	height: 50px;
+	width: auto;
+	margin-top: 50px;
+}
+
+.cta {
+	width: 180px;
+	height: 60px;
+	margin-top: 100px;
+	background-color: rgba(204,204,255,.5);
+}
+
+.cta:hover {
+	background-color: rgba(204,204,255,1);
+}
+
+.cta a {
+	font-size: 36px;
+	padding-top: 8px;
+	letter-spacing: -0.9px;
+	text-align: center!important;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+}
